@@ -1,0 +1,770 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Omar Abdelaziz | Software Tester & QA Portfolio</title>
+  <meta name="description" content="Portfolio of Omar Abdelaziz — Software Tester specializing in Manual Testing, Automation Testing, Test Case Design, and Software Quality Assurance.">
+  <meta name="keywords" content="Software Tester, QA Engineer, Manual Testing, Automation Testing, Selenium, Postman, Jira, Omar Abdelaziz">
+  <meta name="author" content="Omar Abdelaziz">
+  
+  <!-- Favicon -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220%22%20width=%22100%22%20height=%22100%22><circle cx=%2250%22 cy=%2250%22 r=%2245%22 fill=%22%233b5bf5%22/><text x=%2250%22 y=%2262%22 font-size=%2238%22 font-weight=%22bold%22 text-anchor=%22middle%22 fill=%22white%22 font-family=%22sans-serif%22>QA</text></svg>">
+
+  <!-- Google Fonts: Plus Jakarta Sans & Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Ambient Origami Geometric Background -->
+  <div class="bg-facets-layer" aria-hidden="true">
+    <div class="facet-polygon facet-1"></div>
+    <div class="facet-polygon facet-2"></div>
+    <div class="facet-polygon facet-3"></div>
+    <div class="facet-polygon facet-4"></div>
+  </div>
+
+  <!-- Header & Navigation -->
+  <header class="site-header" id="navbar">
+    <div class="header-container">
+      <a href="#home" class="brand-logo" aria-label="Omar Abdelaziz Homepage">
+        <span class="logo-text">Omar<span class="logo-accent">.QA</span></span>
+      </a>
+
+      <nav class="nav-menu" id="navMenu" aria-label="Main Navigation">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#home" class="nav-link active">Home</a></li>
+          <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+          <li class="nav-item"><a href="#why-me" class="nav-link">Why Me</a></li>
+          <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+          <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+          <li class="nav-item"><a href="#services" class="nav-link">Services</a></li>
+          <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+          <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <!-- Light / Dark Mode Toggle Button (Default: Light Mode) -->
+        <button class="theme-toggle-btn" id="themeToggle" aria-label="Toggle light or dark theme" title="Toggle theme">
+          <svg class="sun-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="5"/>
+            <line x1="12" y1="1" x2="12" y2="3"/>
+            <line x1="12" y1="21" x2="12" y2="23"/>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/>
+            <line x1="1" y1="12" x2="3" y2="12"/>
+            <line x1="21" y1="12" x2="23" y2="12"/>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/>
+          </svg>
+          <svg class="moon-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+          </svg>
+        </button>
+
+        <a href="#contact" class="btn btn-primary btn-pill header-btn">Get In Touch</a>
+        
+        <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle navigation menu" aria-expanded="false">
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO SECTION -->
+    <section class="hero-section" id="home">
+      <div class="hero-wrapper">
+        <!-- Hero Left Column -->
+        <div class="hero-content">
+          <span class="hero-badge animate-fade-in">Hello</span>
+          <h1 class="hero-title animate-fade-up">
+            I'm <span class="name-highlight">Omar Abdelaziz</span>
+          </h1>
+          <p class="hero-role animate-fade-up delay-1">
+            Software Tester &mdash; <span class="role-accent">Manual & Automation</span>
+          </p>
+          <p class="hero-description animate-fade-up delay-2">
+            Passionate Software Tester and second-year Artificial Intelligence student dedicated to delivering high-quality software through structured Manual and Automation Testing.
+          </p>
+
+          <div class="hero-actions animate-fade-up delay-3">
+            <div class="hero-socials">
+              <a href="https://www.linkedin.com/in/omar-abdelaziz-73614a389/" target="_blank" rel="noopener noreferrer" class="social-icon-btn" aria-label="Connect on LinkedIn">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.46 10.9v8.37H9.2V10.9H6.46M7.83 6.2a1.66 1.66 0 0 0-1.66 1.66 1.67 1.67 0 0 0 1.66 1.67 1.67 1.67 0 0 0 1.67-1.67A1.66 1.66 0 0 0 7.83 6.2Z"/>
+                </svg>
+              </a>
+              <a href="mailto:ozizo254@gmail.com" class="social-icon-btn" aria-label="Send Email">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                  <polyline points="22,6 12,13 2,6"/>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hero Right Column (Transparent PNG 1.png) -->
+        <div class="hero-visual animate-fade-in delay-2">
+          <div class="visual-canvas">
+            <!-- Orbital Geometry Rings -->
+            <div class="orbital-ring ring-outer"></div>
+            <div class="orbital-ring ring-inner"></div>
+
+            <!-- Hero Image Container (1.png) -->
+            <div class="photo-frame-container">
+              <div class="photo-backdrop"></div>
+              <img src="1.png" alt="Omar Abdelaziz — Software Tester" class="hero-photo" loading="eager">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Mouse Scroll Indicator -->
+      <a href="#about" class="scroll-mouse-indicator" aria-label="Scroll down to About section">
+        <div class="mouse-body">
+          <span class="mouse-wheel"></span>
+        </div>
+      </a>
+    </section>
+
+    <!-- ABOUT ME SECTION -->
+    <section class="section about-section" id="about">
+      <div class="container">
+        <div class="section-header reveal">
+          <div class="section-title-wrap">
+            <span class="section-header-icon" aria-hidden="true">
+              <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/>
+                <circle cx="12" cy="7" r="4"/>
+              </svg>
+            </span>
+            <h2 class="section-title">About Me</h2>
+          </div>
+        </div>
+
+        <div class="about-card-wrapper reveal">
+          <div class="about-content-card">
+            <div class="about-text-column">
+              <p class="about-lead">
+                My passion for technology began at a young age when my father brought me my first computer, sparking a dream to build a career in tech. Today, as a second-year Artificial Intelligence student specializing in Cybersecurity, that foundation continues to shape my journey. Along the way, I discovered Software Testing and found my true calling—driven by a deep curiosity to understand how applications work, uncover edge cases, and ensure software performs reliably.
+              </p>
+              <p class="about-sub">
+                To turn this passion into professional expertise, I joined the Digital Egypt Pioneers Initiative (DEPI), gaining practical experience across Manual and Automation Testing on real-world projects. I specialize in analyzing requirements, designing structured test cases, executing functional tests, automating scenarios, and identifying and reporting bugs. While Software Testing is my primary focus, I also explore Penetration and Security Testing to develop a comprehensive understanding of robust application security.
+              </p>
+            </div>
+
+            <div class="about-highlights-column reveal-stagger">
+              <div class="highlight-pill reveal">
+                <div class="highlight-icon">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="20 6 9 17 4 12"/>
+                  </svg>
+                </div>
+                <div class="highlight-info">
+                  <h4>Manual & Automation Testing</h4>
+                  <p>DEPI certified track & real-world scenario validation</p>
+                </div>
+              </div>
+
+              <div class="highlight-pill reveal">
+                <div class="highlight-icon">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M22 10v6M2 10l10-5 10 5-10 5z"/>
+                    <path d="M6 12v5c3 3 9 3 12 0v-5"/>
+                  </svg>
+                </div>
+                <div class="highlight-info">
+                  <h4>Artificial Intelligence Student</h4>
+                  <p>Menoufia University — Cyber Security Dept.</p>
+                </div>
+              </div>
+
+              <div class="highlight-pill reveal">
+                <div class="highlight-icon">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <rect x="3" y="11" width="18" height="11" rx="2" ry="2"/>
+                    <path d="M7 11V7a5 5 0 0 1 10 0v4"/>
+                  </svg>
+                </div>
+                <div class="highlight-info">
+                  <h4>Security Testing Learner</h4>
+                  <p>Expanding into application & penetration security</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- WHY ME SECTION -->
+    <section class="section why-me-section" id="why-me">
+      <div class="container">
+        <div class="section-header reveal">
+          <div class="section-title-wrap">
+            <span class="section-header-icon" aria-hidden="true">
+              <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+              </svg>
+            </span>
+            <h2 class="section-title">Why Me</h2>
+          </div>
+        </div>
+
+        <div class="feature-cards-grid reveal-stagger">
+          <!-- Card 1 -->
+          <div class="feature-card reveal">
+            <div class="feature-icon-box">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10"/>
+                <circle cx="12" cy="12" r="6"/>
+                <circle cx="12" cy="12" r="2"/>
+              </svg>
+            </div>
+            <h3 class="feature-card-title">1. Attention to Detail</h3>
+            <p class="feature-card-desc">
+              I pay close attention to small details and edge cases to identify issues that can affect software quality and user experience.
+            </p>
+            <div class="card-edge-glow"></div>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="feature-card reveal">
+            <div class="feature-icon-box">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polygon points="12 2 2 7 12 12 22 7 12 2"/>
+                <polyline points="2 17 12 22 22 17"/>
+                <polyline points="2 12 12 17 22 12"/>
+              </svg>
+            </div>
+            <h3 class="feature-card-title">2. Structured & Organized Testing</h3>
+            <p class="feature-card-desc">
+              I create clear, structured test cases and maintain organized testing documentation, making test results easy to understand, track, and review.
+            </p>
+            <div class="card-edge-glow"></div>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="feature-card reveal">
+            <div class="feature-icon-box">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/>
+                <polyline points="17 6 23 6 23 12"/>
+              </svg>
+            </div>
+            <h3 class="feature-card-title">3. Continuous Learning</h3>
+            <p class="feature-card-desc">
+              I continuously develop my testing skills across Manual and Automation Testing while expanding my knowledge in Security Testing and Penetration Testing.
+            </p>
+            <div class="card-edge-glow"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EDUCATION SECTION -->
+    <section class="section education-section" id="education">
+      <div class="container">
+        <div class="section-header reveal">
+          <div class="section-title-wrap">
+            <span class="section-header-icon" aria-hidden="true">
+              <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M22 10v6M2 10l10-5 10 5-10 5z"/>
+                <path d="M6 12v5c3 3 9 3 12 0v-5"/>
+              </svg>
+            </span>
+            <h2 class="section-title">Education</h2>
+          </div>
+        </div>
+
+        <div class="education-grid reveal-stagger">
+          <!-- Education 1 -->
+          <div class="education-card reveal">
+            <div class="edu-badge">University</div>
+            <div class="edu-icon-wrapper">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M22 10v6M2 10l10-5 10 5-10 5z"/>
+                <path d="M6 12v5c3 3 9 3 12 0v-5"/>
+              </svg>
+            </div>
+            <h3 class="edu-institution">Menoufia University</h3>
+            <p class="edu-faculty">Faculty of Artificial Intelligence — Cyber Security Department</p>
+            <div class="edu-status-pill">Second-Year Student</div>
+          </div>
+
+          <!-- Education 2 -->
+          <div class="education-card highlight-edu reveal">
+            <div class="edu-badge badge-accent">Specialized Track</div>
+            <div class="edu-icon-wrapper icon-accent">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="2" y="7" width="20" height="14" rx="2" ry="2"/>
+                <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/>
+              </svg>
+            </div>
+            <h3 class="edu-institution">Digital Egypt Pioneers Initiative (DEPI)</h3>
+            <p class="edu-faculty">Software Testing Track</p>
+            <div class="edu-status-pill pill-blue">Manual & Automation Testing</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TECHNICAL SKILLS SECTION (with merged secondary skills) -->
+    <section class="section skills-section" id="skills">
+      <div class="container">
+        <div class="section-header reveal">
+          <div class="section-title-wrap">
+            <span class="section-header-icon" aria-hidden="true">
+              <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="16 18 22 12 16 6"/>
+                <polyline points="8 6 2 12 8 18"/>
+              </svg>
+            </span>
+            <h2 class="section-title">Technical Skills</h2>
+          </div>
+        </div>
+
+        <!-- Main Technical Skills Cards -->
+        <div class="skills-category-grid reveal-stagger">
+          <!-- Software Testing -->
+          <div class="skill-category-card reveal">
+            <div class="category-header">
+              <div class="category-icon icon-test">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M9 11l3 3L22 4"/>
+                  <path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/>
+                </svg>
+              </div>
+              <h3 class="category-title">Software Testing</h3>
+            </div>
+            <div class="skill-pills">
+              <span class="skill-pill">Manual Testing</span>
+              <span class="skill-pill">Automation Testing</span>
+              <span class="skill-pill">Test Case Design</span>
+              <span class="skill-pill">Functional Testing</span>
+              <span class="skill-pill">Regression Testing</span>
+              <span class="skill-pill">Bug Reporting</span>
+              <span class="skill-pill">API Testing</span>
+            </div>
+          </div>
+
+          <!-- Tools & Automation -->
+          <div class="skill-category-card reveal">
+            <div class="category-header">
+              <div class="category-icon icon-tools">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/>
+                </svg>
+              </div>
+              <h3 class="category-title">Tools & Automation</h3>
+            </div>
+            <div class="skill-pills">
+              <span class="skill-pill highlight-pill-tag">Selenium</span>
+              <span class="skill-pill highlight-pill-tag">Postman</span>
+              <span class="skill-pill highlight-pill-tag">Jira</span>
+              <span class="skill-pill">Git</span>
+              <span class="skill-pill">SQL</span>
+            </div>
+          </div>
+
+          <!-- Programming -->
+          <div class="skill-category-card reveal">
+            <div class="category-header">
+              <div class="category-icon icon-code">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="16 18 22 12 16 6"/>
+                  <polyline points="8 6 2 12 8 18"/>
+                </svg>
+              </div>
+              <h3 class="category-title">Programming</h3>
+            </div>
+            <div class="skill-pills">
+              <span class="skill-pill">Java</span>
+              <span class="skill-pill">C++</span>
+              <span class="skill-pill">Python</span>
+            </div>
+          </div>
+
+          <!-- Security -->
+          <div class="skill-category-card reveal">
+            <div class="category-header">
+              <div class="category-icon icon-sec">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                </svg>
+              </div>
+              <h3 class="category-title">Security</h3>
+            </div>
+            <div class="skill-pills">
+              <span class="skill-pill">Security Testing</span>
+              <span class="skill-pill">Penetration Testing</span>
+              <span class="skill-pill">Burp Suite</span>
+              <span class="skill-pill">Nmap</span>
+              <span class="skill-pill">Wireshark</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Secondary Smaller Skills Group (No "Soft Skills" title) -->
+        <div class="secondary-skills-grid reveal-stagger">
+          <div class="secondary-skill-card reveal">
+            <div class="sec-skill-icon">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/>
+              </svg>
+            </div>
+            <span class="sec-skill-title">Fast Learner & Highly Adaptable</span>
+          </div>
+
+          <div class="secondary-skill-card reveal">
+            <div class="sec-skill-icon">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="2" y="7" width="20" height="14" rx="2" ry="2"/>
+                <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/>
+              </svg>
+            </div>
+            <span class="sec-skill-title">Structured Problem Solving</span>
+          </div>
+
+          <div class="secondary-skill-card reveal">
+            <div class="sec-skill-icon">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>
+              </svg>
+            </div>
+            <span class="sec-skill-title">Effective Technical Communication</span>
+          </div>
+
+          <div class="secondary-skill-card reveal">
+            <div class="sec-skill-icon">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83"/>
+              </svg>
+            </div>
+            <span class="sec-skill-title">AI Tools Interaction & Integration</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- OFFERED SERVICES SECTION -->
+    <section class="section services-section" id="services">
+      <div class="container">
+        <div class="section-header reveal">
+          <div class="section-title-wrap">
+            <span class="section-header-icon" aria-hidden="true">
+              <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="2" y="7" width="20" height="14" rx="2" ry="2"/>
+                <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/>
+              </svg>
+            </span>
+            <h2 class="section-title">Offered Services</h2>
+          </div>
+        </div>
+
+        <div class="services-grid reveal-stagger">
+          <!-- Service 1 -->
+          <div class="service-card reveal">
+            <div class="service-number">01</div>
+            <div class="service-icon">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+                <polyline points="14 2 14 8 20 8"/>
+                <line x1="16" y1="13" x2="8" y2="13"/>
+                <line x1="16" y1="17" x2="8" y2="17"/>
+                <polyline points="10 9 9 9 8 9"/>
+              </svg>
+            </div>
+            <h3 class="service-title">Manual Testing</h3>
+            <p class="service-desc">Functional testing, exploratory testing, and validation against requirements.</p>
+          </div>
+
+          <!-- Service 2 -->
+          <div class="service-card reveal">
+            <div class="service-number">02</div>
+            <div class="service-icon">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="2" y="3" width="20" height="14" rx="2" ry="2"/>
+                <line x1="8" y1="21" x2="16" y2="21"/>
+                <line x1="12" y1="17" x2="12" y2="21"/>
+                <path d="M7 8l3 3-3 3"/>
+                <line x1="13" y1="14" x2="17" y2="14"/>
+              </svg>
+            </div>
+            <h3 class="service-title">Automation Testing</h3>
+            <p class="service-desc">Creating and executing automated test scripts for suitable test scenarios.</p>
+          </div>
+
+          <!-- Service 3 -->
+          <div class="service-card reveal">
+            <div class="service-number">03</div>
+            <div class="service-icon">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"/>
+                <rect x="8" y="2" width="8" height="4" rx="1" ry="1"/>
+                <path d="M9 14l2 2 4-4"/>
+              </svg>
+            </div>
+            <h3 class="service-title">Test Case & Test Scenario Creation</h3>
+            <p class="service-desc">Clear, structured, executable, and trackable test cases and scenarios.</p>
+          </div>
+
+          <!-- Service 4 -->
+          <div class="service-card reveal">
+            <div class="service-number">04</div>
+            <div class="service-icon">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="8" y="2" width="8" height="4" rx="1" ry="1"/>
+                <path d="M12 11v6"/>
+                <path d="M9 14h6"/>
+                <path d="M4 10h16"/>
+                <circle cx="12" cy="14" r="7"/>
+              </svg>
+            </div>
+            <h3 class="service-title">Bug Reporting & Documentation</h3>
+            <p class="service-desc">Clear bug reports including Steps to Reproduce, Expected Result, Actual Result, and Severity/Priority when needed.</p>
+          </div>
+
+          <!-- Service 5 -->
+          <div class="service-card reveal">
+            <div class="service-number">05</div>
+            <div class="service-icon">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/>
+              </svg>
+            </div>
+            <h3 class="service-title">API Testing</h3>
+            <p class="service-desc">Testing requests, responses, and status codes using tools such as Postman.</p>
+          </div>
+
+          <!-- Service 6 -->
+          <div class="service-card reveal">
+            <div class="service-number">06</div>
+            <div class="service-icon">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21.5 2v6h-6"/>
+                <path d="M21.34 15.57a10 10 0 1 1-.57-8.38l5.67-5.67"/>
+              </svg>
+            </div>
+            <h3 class="service-title">Regression Testing</h3>
+            <p class="service-desc">Re-testing affected functionality after changes and fixes.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS SECTION -->
+    <section class="section projects-section" id="projects">
+      <div class="container">
+        <div class="section-header reveal">
+          <div class="section-title-wrap">
+            <span class="section-header-icon" aria-hidden="true">
+              <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="3" y="3" width="18" height="18" rx="2" ry="2"/>
+                <line x1="3" y1="9" x2="21" y2="9"/>
+                <line x1="9" y1="21" x2="9" y2="9"/>
+              </svg>
+            </span>
+            <h2 class="section-title">Projects</h2>
+          </div>
+        </div>
+
+        <div class="projects-list reveal-stagger">
+          <!-- Project 01 -->
+          <article class="project-card reveal">
+            <div class="project-media-col">
+              <div class="project-img-frame">
+                <img src="2.jpg" alt="Project Management & Organization Screenshot" class="project-img" loading="lazy">
+                <div class="img-badge">Project 01</div>
+              </div>
+            </div>
+            <div class="project-info-col">
+              <span class="project-category-tag">Organization & Documentation</span>
+              <h3 class="project-heading">Project Management & Organization</h3>
+              <p class="project-description">
+                This project strengthened my ability to organize complex tasks, manage structured information, and document project activities clearly — skills that I apply when creating and managing structured test cases and testing documentation.
+              </p>
+              <div class="project-meta-pills">
+                <span class="meta-pill">Structured Documentation</span>
+                <span class="meta-pill">Task Organization</span>
+                <span class="meta-pill">Process Tracking</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 02 -->
+          <article class="project-card reverse-layout reveal">
+            <div class="project-media-col">
+              <div class="project-img-frame">
+                <img src="3.jpg" alt="C++ Programming Project Screenshot" class="project-img" loading="lazy">
+                <div class="img-badge">Project 02</div>
+              </div>
+            </div>
+            <div class="project-info-col">
+              <span class="project-category-tag">Programming & Logic</span>
+              <h3 class="project-heading">C++ Programming Project</h3>
+              <p class="project-description">
+                This project strengthened my logical thinking and problem-solving skills through practical C++ programming — skills that support writing reliable and well-structured automation test scripts.
+              </p>
+              <div class="project-meta-pills">
+                <span class="meta-pill">C++</span>
+                <span class="meta-pill">Algorithmic Logic</span>
+                <span class="meta-pill">Structured Problem Solving</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 03 -->
+          <article class="project-card reveal">
+            <div class="project-media-col">
+              <div class="project-img-frame">
+                <img src="4.jpg" alt="Java Programming Project Screenshot" class="project-img" loading="lazy">
+                <div class="img-badge">Project 03</div>
+              </div>
+            </div>
+            <div class="project-info-col">
+              <span class="project-category-tag">Programming & Automation Foundation</span>
+              <h3 class="project-heading">Java Programming Project</h3>
+              <p class="project-description">
+                This project enhanced my programming and problem-solving skills through Java, helping me build the logical foundation needed to develop and maintain effective automation testing scripts.
+              </p>
+              <div class="project-meta-pills">
+                <span class="meta-pill">Java</span>
+                <span class="meta-pill">Object-Oriented Logic</span>
+                <span class="meta-pill">Automation Foundation</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT ME SECTION (Compact & Minimal) -->
+    <section class="section contact-section" id="contact">
+      <div class="container">
+        <div class="section-header reveal">
+          <div class="section-title-wrap">
+            <span class="section-header-icon" aria-hidden="true">
+              <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>
+              </svg>
+            </span>
+            <h2 class="section-title">Contact Me</h2>
+          </div>
+        </div>
+
+        <div class="contact-card-wrapper">
+          <div class="contact-card-grid reveal-stagger">
+            <!-- WhatsApp -->
+            <div class="contact-item-card compact-card reveal">
+              <div class="contact-header-row">
+                <div class="contact-icon-minimal" aria-hidden="true">
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                  </svg>
+                </div>
+                <h3 class="contact-label">WhatsApp</h3>
+              </div>
+              <p class="contact-subtext">Need help with testing? Let’s talk.</p>
+              <div class="contact-body-row">
+                <a href="https://wa.me/201091294663" target="_blank" rel="noopener noreferrer" class="contact-value-link">01091294663</a>
+                <button class="copy-btn-icon-only" data-copy="01091294663" aria-label="Copy WhatsApp number" title="Copy number">
+                  <svg class="copy-icon-svg default-icon" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <rect x="9" y="9" width="13" height="13" rx="2" ry="2"/>
+                    <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/>
+                  </svg>
+                  <svg class="copy-icon-svg check-icon" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="20 6 9 17 4 12"/>
+                  </svg>
+                </button>
+              </div>
+            </div>
+
+            <!-- Email -->
+            <div class="contact-item-card compact-card reveal">
+              <div class="contact-header-row">
+                <div class="contact-icon-minimal" aria-hidden="true">
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                    <polyline points="22,6 12,13 2,6"/>
+                  </svg>
+                </div>
+                <h3 class="contact-label">Email</h3>
+              </div>
+              <p class="contact-subtext">For project inquiries and details.</p>
+              <div class="contact-body-row">
+                <a href="mailto:ozizo254@gmail.com" class="contact-value-link">ozizo254@gmail.com</a>
+                <button class="copy-btn-icon-only" data-copy="ozizo254@gmail.com" aria-label="Copy email address" title="Copy email">
+                  <svg class="copy-icon-svg default-icon" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <rect x="9" y="9" width="13" height="13" rx="2" ry="2"/>
+                    <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/>
+                  </svg>
+                  <svg class="copy-icon-svg check-icon" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="20 6 9 17 4 12"/>
+                  </svg>
+                </button>
+              </div>
+            </div>
+
+            <!-- LinkedIn -->
+            <div class="contact-item-card compact-card reveal">
+              <div class="contact-header-row">
+                <div class="contact-icon-minimal" aria-hidden="true">
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.46 10.9v8.37H9.2V10.9H6.46M7.83 6.2a1.66 1.66 0 0 0-1.66 1.66 1.67 1.67 0 0 0 1.66 1.67 1.67 1.67 0 0 0 1.67-1.67A1.66 1.66 0 0 0 7.83 6.2Z"/>
+                  </svg>
+                </div>
+                <h3 class="contact-label">LinkedIn</h3>
+              </div>
+              <p class="contact-subtext">Let’s connect professionally.</p>
+              <div class="contact-body-row">
+                <a href="https://www.linkedin.com/in/omar-abdelaziz-73614a389/" target="_blank" rel="noopener noreferrer" class="contact-value-link linkedin-link">
+                  LinkedIn Profile
+                  <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>
+                    <polyline points="15 3 21 3 21 9"/>
+                    <line x1="10" y1="14" x2="21" y2="3"/>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <div class="footer-brand">
+        <span class="logo-text">Omar<span class="logo-accent">.QA</span></span>
+        <span class="footer-role">Software Tester & Quality Assurance</span>
+      </div>
+      <p class="footer-copyright">
+        &copy; <span id="currentYear"></span> Omar Abdelaziz. All rights reserved.
+      </p>
+      <a href="#home" class="back-to-top" aria-label="Back to top">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <polyline points="18 15 12 9 6 15"/>
+        </svg>
+      </a>
+    </div>
+  </footer>
+
+  <!-- Toast Notification Container -->
+  <div class="toast-container" id="toastContainer" aria-live="polite"></div>
+
+  <!-- JavaScript -->
+  <script src="main.js"></script>
+</body>
+</html>
